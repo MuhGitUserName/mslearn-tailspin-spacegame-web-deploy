@@ -10,8 +10,8 @@ using System.Collections;
 namespace UITests
 {
     [TestFixture("Chrome")]
-    [TestFixture("IE")]
     [TestFixture("Firefox")]
+    [TestFixture("IE")]
     public class HomePageTest
     {
         private string browser;
